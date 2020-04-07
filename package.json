@@ -1,7 +1,7 @@
 {
   "name": "liri-node-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "Liri is like Siri ",
   "main": "keys.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,10 +11,16 @@
     "url": "git+https://github.com/avalonmtg/liri-node-app.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Joan Stoddard",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/avalonmtg/liri-node-app/issues"
   },
-  "homepage": "https://github.com/avalonmtg/liri-node-app#readme"
+  "homepage": "https://github.com/avalonmtg/liri-node-app#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "moment": "^2.24.0",
+    "node-spotify-api": "^1.1.1"
+  }
 }
