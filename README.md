@@ -12,9 +12,6 @@ This will search the Bands in Town Artist Events API for an artist and render th
 * Name of the venue
 * Venue location
 * Date of the Event (use moment to format this as "MM/DD/YYYY")
-![Default](/images/concertdefault.PNG)
-
-![User](/images/concertinput.PNG)
 
 
 2.  node liri.js spotify-this-song '<song name here>'
