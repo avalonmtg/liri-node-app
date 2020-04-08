@@ -64,7 +64,7 @@ function allArtists(artists) {
 }
 function searchSong(song) {
     console.log("inside of searchSong function")
-    if (song === undefined) {
+    if (song === "") {
         song = "The Sign"
     };
     spotify.search({
@@ -112,8 +112,19 @@ function movie(movieName) {
 
         }
     )
+}
+
+function doWhatItSays() {
+    fs.readFile("random.txt", "utf8", function (error, data) {
+        console.log(data);
+        var splitData = data.split(",");
+        console.log(splitData);
+        startApp(splitData[0], splitData[1])
+        {
+
+        }
 
 
-    //}
-    //function doWhatItSays() {
+    }
+    )
 }
